@@ -1,7 +1,9 @@
 {
-  "name": "my-vue-app",
+  "name": "{{name}}",
   "private": true,
-  "version": "0.0.0",
+  "version": "{{version}}",
+  "author": "{{author}}",
+  "description": "{{description}}",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
