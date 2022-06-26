@@ -6,6 +6,8 @@
   "description": "{{description}}",
   "scripts": {
     "dev": "vite",
+    "prettier": "prettier --write .",
+    "eslint": "eslint --init",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
